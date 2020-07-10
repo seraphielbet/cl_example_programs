@@ -1,0 +1,38 @@
+このアプリ動作の為に必要な物
+
+　・入手：https://nodejs.org/ja/
+　　手順：https://qiita.com/kumapeta/items/0069536644b626b61ecc
+
+コマンドプロンプトを開きます
+
+　・入力：cd CL株式会社様\project\2019-04-13 ビジネスホテル清掃の進捗状況（完了数）をリアルタイムにシェアするアプリ\dev
+　　　　：npm install
+　・成功：下記メッセージが表示されていれば動作に必要なコンポーネントがインストールされた状態です。
+　　　　　added 79 packages from 66 contributors and audited 69 packages in 14.05s
+　　　　　found 6 high severity vulnerabilities
+  　　　　run `npm audit fix` to fix them, or `npm audit` for details
+　　　　　インストール先はnode_modulesフォルダになります。
+　
+　・入力：npm start
+　・成功：下記メッセージが表示されていればリアルタイム共有サーバが起動した状態です。
+　　　Hello wonderful person! :) Thanks for using GUN, feel free to ask for help on https://gitter.im/amark/gun and ask StackOverflow questions tagged with 'gun'!
+　　　AXE enabled.
+　　　http://127.0.0.1:8765
+　　　method  path     auth  scope  description
+　　　------  -------  ----  -----  --------------------------
+　　　GET     /{any*}  none  none   ファイルとフォルダの返却用
+　　　'Server listening on http://127.0.0.1:8765'
+
+ウェブブラウザを複数開きます
+
+　・入力：http://127.0.0.1:8765/
+　・成功：アプリの画面が表示されている
+
+使い方
+
+　・アプリの一番下にあるメニュー
+　　　ベッドアイコンにあるの右上にある四角い枠中をクリックしてカウントダウン初期値を入力します
+　　　そして、ベッドアイコン自体をクリックするとその値がカウントダウンされていきます。
+　・他ウェブブラウザで開いていた画面上でもリアルタイムに同期します。
+　　　
+
